@@ -1,0 +1,28 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:latest
+    ports:
+      - '3306:3306'
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - MYSQL_DATABASE=app
+      - MYSQL_USER=century
+      - MYSQL_PASSWORD=century
+    volumes:
+      - ./data:/var/lib/mysql
+  postgres:
+    image: postgres:latest
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./data:/var/lib/pgsql/data
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - POSTGRES_DB=app
+      - POSTGRES_PASSWORD=century
+      - POSTGRES_USER=century
+  node-app:
+    build: ./gate-simulator
+    ports:
+      - '9999:9999'

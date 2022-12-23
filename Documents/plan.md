@@ -2,7 +2,7 @@
 
 *Тест-кейс:*
 
-https://docs.google.com/spreadsheets/d/1uT9Zh8qf9XxzhLivMZWqoFON-3kZSk4eCXkTkYDOkhY/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/106RJvp-R1TDOLROBfAKSzsvFbFZkuzvYIU-XzILrjsU/edit?usp=sharing
 
 # 2. Перечень используемых инструментов с обоснованием выбора
 
