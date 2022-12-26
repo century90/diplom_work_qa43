@@ -2,7 +2,7 @@
 
 *Тест-кейс:*
 
-https://docs.google.com/spreadsheets/d/106RJvp-R1TDOLROBfAKSzsvFbFZkuzvYIU-XzILrjsU/edit?usp=sharing
+[Ссылка на Google Doc с тест-кейсом по автоматизации веб-сервиса](https://docs.google.com/spreadsheets/d/106RJvp-R1TDOLROBfAKSzsvFbFZkuzvYIU-XzILrjsU/edit?usp=sharing)
 
 # 2. Перечень используемых инструментов с обоснованием выбора
 
