@@ -450,4 +450,32 @@ public class TestFormPaymentCredit {
         formPage.checkMessageWrongFormat();
     }
 
+    @Test
+    @DisplayName("Оплата по активной карте, обычная покупка, валидные данные, проверка записи в БД")
+    void shouldPayByApprovedCardStatusInDB() throws SQLException {
+        formPage.buyForYourMoney();
+        formPage.setCardNumber("4444444444444441");
+        formPage.setCardMonth("01");
+        formPage.setCardYear("25");
+        formPage.setCardOwner("Ivan Petrov");
+        formPage.setCardCVV("999");
+        formPage.pushСontinueButton();
+        formPage.checkMessageSuccess();
+        DBUtils.checkPaymentStatus(Status.APPROVED);
+    }
+
+    @Test
+    @DisplayName("Оплата по неактивной карте, обычная покупка, валидные данные, проверка записи в БД")
+    void shouldNoPayByDeclinedCardStatusInDB() throws SQLException {
+        formPage.buyForYourMoney();
+        formPage.setCardNumber("4444444444444442");
+        formPage.setCardMonth("01");
+        formPage.setCardYear("25");
+        formPage.setCardOwner("Ivan Petrov");
+        formPage.setCardCVV("999");
+        formPage.pushСontinueButton();
+        formPage.checkMessageSuccess();
+        DBUtils.checkPaymentStatus(Status.DECLINED);
+    }
+
 }
