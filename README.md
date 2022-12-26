@@ -1,5 +1,11 @@
 # Дипломный проект профессии «Тестировщик ПО»
 
+[План автоматизации тестирования веб-формы сервиса покупки туров](https://github.com/century90/diplom_work_qa43/blob/master/Documents/plan.md)
+
+[Отчёт по итогам тестирования](https://github.com/century90/diplom_work_qa43/blob/master/Documents/Report.md)
+
+[Отчёт о проведённой автоматизации](https://github.com/century90/diplom_work_qa43/blob/master/Documents/Summary.md)
+
 # *Инструкция по запуску:*
 
 1. Склонировать репозиторий:
