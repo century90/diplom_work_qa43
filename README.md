@@ -1,12 +1,12 @@
 # Дипломный проект профессии «Тестировщик ПО»
 
-[План автоматизации тестирования веб-формы сервиса покупки туров](https://github.com/century90/diplom_work_qa43/blob/master/Documents/plan.md)
+[Планирование автоматизации тестирования](https://github.com/century90/diplom_work_qa43/blob/master/Documents/plan.md)
 
 [Отчёт по итогам тестирования](https://github.com/century90/diplom_work_qa43/blob/master/Documents/Report.md)
 
 [Отчёт о проведённой автоматизации](https://github.com/century90/diplom_work_qa43/blob/master/Documents/Summary.md)
 
-# *Инструкция по запуску:*
+### Инструкция по запуску:
 
 1. Склонировать репозиторий:
 
@@ -46,5 +46,5 @@ http://localhost:8080/
 
        ./gradlew allureServe
 
-8. Сгенерированный отчет откроется в браузере автоматически. После просмотра и закрытия отчета можно остановить работу команды, нажав Ctrl+С или закрыть вкладку Run и нажать Disconnect
+8. Сгенерированный отчет откроется в браузере автоматически. После просмотра и закрытия отчета можно остановить работу команды, нажав Ctrl+С.
 
