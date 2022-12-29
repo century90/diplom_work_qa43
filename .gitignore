@@ -5,6 +5,7 @@ HELP.md
 .allure
 build/
 !/
+data/
 
 ### STS ###
 .apt_generated
